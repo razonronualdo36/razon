@@ -1,0 +1,56 @@
+body{
+
+    font-family:Arial;
+
+    background:#070707;
+
+    color:white;
+}
+
+h2{
+
+    text-align:center;
+
+    color:#b98cff;
+
+    margin-top:40px;
+}
+
+table{
+
+    width:95%;
+
+    margin:auto;
+
+    margin-top:30px;
+
+    border-collapse:collapse;
+
+    background:#14111f;
+
+    border:1px solid #6d36ff;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.3);
+}
+
+th{
+
+    background:#5c2cff;
+
+    color:white;
+}
+
+th,td{
+
+    border:1px solid #6d36ff;
+
+    padding:15px;
+
+    text-align:center;
+}
+
+tr:hover{
+
+    background:#241836;
+}
