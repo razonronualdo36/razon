@@ -1,0 +1,106 @@
+body {
+    font-family: "Georgia", serif;
+    background: #fff3e0;
+    padding: 30px;
+}
+
+.form-container,
+.view-container {
+    width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    border: 3px solid #ffcc80;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: #8d5524;
+    font-size: 32px;
+}
+
+h2::after {
+    content: " 🐾";
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #6d4c41;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid #ffcc80;
+    border-radius: 12px;
+    outline: none;
+    background: #fffaf5;
+}
+
+input[type="text"]:focus {
+    border-color: #ff9800;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background: #ff9800;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #f57c00;
+}
+
+.message {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dog-card {
+    border: 2px solid #ffcc80;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #fff8e1;
+}
+
+.dog-card h3 {
+    margin-top: 0;
+    color: #8d5524;
+}
+
+.dog-card p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #5d4037;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #e65100;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
